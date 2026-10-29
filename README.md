@@ -52,4 +52,4 @@ The creator designed the question, collected and reviewed labels, defined coding
 
 ## Publication
 
-Upload only this folder's contents to a fresh GitHub repository. Do not upload earlier release bundles, private records, original workbooks, or prior hosting-repository history. The current hosted preview remains owner-private. GitHub publication has not yet occurred. No project-wide reuse license is assigned in this release. Source broadcasts are linked in the sample, not redistributed.
+Upload only this folder's contents to a fresh GitHub repository. Do not upload earlier release bundles, private records, original workbooks, or prior hosting-repository history.The project is publicly available on GitHub. No project-wide reuse license is assigned in this release. Source broadcasts are linked in the sample, not redistributed.
