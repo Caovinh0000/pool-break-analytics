@@ -1,0 +1,35 @@
+{
+  "intercept": -0.5579839075318883,
+  "number": {
+    "mean": 1.1040339702760085,
+    "scale": 0.7399752326383683,
+    "weight": 0.1671610977835384
+  },
+  "categorical": {
+    "break_foul": {
+      "NO": 0.4967955977765897,
+      "YES": -0.49532629553051716
+    },
+    "cue_zone": {
+      "FOOT": -0.2826064884755113,
+      "HEAD": 0.37263676114858946,
+      "MIDDLE": 0.5731440905709327,
+      "UNKNOWN": -0.6617050609979476
+    },
+    "direct_path": {
+      "BLOCKED": 0.2772183724692077,
+      "CLEAR": 0.3859559907748126,
+      "UNKNOWN": -0.6617050609979476
+    },
+    "lowest_remaining": {
+      "1": -0.3019922692997232,
+      "2": 0.2945315845481604,
+      "3": -0.3032222516391976,
+      "4": 0.31215223863682595
+    }
+  },
+  "training_n": 471,
+  "training_matches": 32,
+  "scope": "ongoing racks, professional televised 9-ball, provisional labels",
+  "version": "v4"
+}

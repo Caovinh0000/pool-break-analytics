@@ -1,0 +1,2 @@
+function poolProbability(model,input){let z=model.intercept;const n=model.number;z+=n.weight*(Number(input.balls_pocketed)-n.mean)/n.scale;for(const [key,weights] of Object.entries(model.categorical)){const value=String(input[key]);if(!(value in weights))throw new Error('Unsupported category: '+key+'='+value);z+=weights[value]}return 1/(1+Math.exp(-z))}
+if(typeof module!=='undefined')module.exports={poolProbability};

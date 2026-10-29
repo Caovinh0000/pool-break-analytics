@@ -1,0 +1,423 @@
+{
+  "source_rows": 500,
+  "deduplicated": {
+    "n": 488,
+    "wins": 305,
+    "rate": 0.625,
+    "match_bootstrap_95ci": [
+      0.5626251283367557,
+      0.6836600766537072
+    ],
+    "matches": 32
+  },
+  "golden_racks": {
+    "n": 11,
+    "wins": 11,
+    "rate": 1.0,
+    "match_bootstrap_95ci": [
+      1.0,
+      1.0
+    ],
+    "matches": 10
+  },
+  "primary": {
+    "n": 471,
+    "wins": 291,
+    "rate": 0.6178343949044586,
+    "match_bootstrap_95ci": [
+      0.5559968318624122,
+      0.6768558951965066
+    ],
+    "matches": 32
+  },
+  "groups": {
+    "balls_pocketed": {
+      "0": {
+        "n": 90,
+        "wins": 37,
+        "rate": 0.4111111111111111,
+        "match_bootstrap_95ci": [
+          0.3145904102430102,
+          0.5194935064935065
+        ],
+        "matches": 28
+      },
+      "1": {
+        "n": 259,
+        "wins": 176,
+        "rate": 0.6795366795366795,
+        "match_bootstrap_95ci": [
+          0.6239226869455007,
+          0.7309357263765808
+        ],
+        "matches": 32
+      },
+      "2": {
+        "n": 105,
+        "wins": 65,
+        "rate": 0.6190476190476191,
+        "match_bootstrap_95ci": [
+          0.5176296111665005,
+          0.7115427927927929
+        ],
+        "matches": 32
+      },
+      "3": {
+        "n": 17,
+        "wins": 13,
+        "rate": 0.7647058823529411,
+        "match_bootstrap_95ci": [
+          0.6,
+          1.0
+        ],
+        "matches": 10
+      }
+    },
+    "break_foul": {
+      "NO": {
+        "n": 442,
+        "wins": 289,
+        "rate": 0.6538461538461539,
+        "match_bootstrap_95ci": [
+          0.5938114151706826,
+          0.7136633887315145
+        ],
+        "matches": 32
+      },
+      "YES": {
+        "n": 29,
+        "wins": 2,
+        "rate": 0.06896551724137931,
+        "match_bootstrap_95ci": [
+          0.0,
+          0.1388888888888889
+        ],
+        "matches": 18
+      }
+    },
+    "cue_zone": {
+      "FOOT": {
+        "n": 132,
+        "wins": 70,
+        "rate": 0.5303030303030303,
+        "match_bootstrap_95ci": [
+          0.4385904830569574,
+          0.6260162601626016
+        ],
+        "matches": 31
+      },
+      "HEAD": {
+        "n": 68,
+        "wins": 47,
+        "rate": 0.6911764705882353,
+        "match_bootstrap_95ci": [
+          0.546485200845666,
+          0.828125
+        ],
+        "matches": 28
+      },
+      "MIDDLE": {
+        "n": 241,
+        "wins": 172,
+        "rate": 0.7136929460580913,
+        "match_bootstrap_95ci": [
+          0.6343427198845512,
+          0.7797315830721003
+        ],
+        "matches": 32
+      },
+      "UNKNOWN": {
+        "n": 30,
+        "wins": 2,
+        "rate": 0.06666666666666667,
+        "match_bootstrap_95ci": [
+          0.0,
+          0.13513513513513514
+        ],
+        "matches": 19
+      }
+    },
+    "direct_path": {
+      "BLOCKED": {
+        "n": 67,
+        "wins": 39,
+        "rate": 0.582089552238806,
+        "match_bootstrap_95ci": [
+          0.4626819029850746,
+          0.7091055718475074
+        ],
+        "matches": 27
+      },
+      "CLEAR": {
+        "n": 374,
+        "wins": 250,
+        "rate": 0.6684491978609626,
+        "match_bootstrap_95ci": [
+          0.6028169014084507,
+          0.7318328036586311
+        ],
+        "matches": 32
+      },
+      "UNKNOWN": {
+        "n": 30,
+        "wins": 2,
+        "rate": 0.06666666666666667,
+        "match_bootstrap_95ci": [
+          0.0,
+          0.13513513513513514
+        ],
+        "matches": 19
+      }
+    }
+  },
+  "no_foul_groups": {
+    "balls_pocketed": {
+      "0": {
+        "n": 80,
+        "wins": 36,
+        "rate": 0.45,
+        "match_bootstrap_95ci": [
+          0.34523809523809523,
+          0.5652173913043478
+        ],
+        "matches": 28
+      },
+      "1": {
+        "n": 245,
+        "wins": 175,
+        "rate": 0.7142857142857143,
+        "match_bootstrap_95ci": [
+          0.657775641025641,
+          0.7682938600621527
+        ],
+        "matches": 32
+      },
+      "2": {
+        "n": 100,
+        "wins": 65,
+        "rate": 0.65,
+        "match_bootstrap_95ci": [
+          0.5543445521215297,
+          0.7411954459203037
+        ],
+        "matches": 32
+      },
+      "3": {
+        "n": 17,
+        "wins": 13,
+        "rate": 0.7647058823529411,
+        "match_bootstrap_95ci": [
+          0.605909090909091,
+          1.0
+        ],
+        "matches": 10
+      }
+    },
+    "cue_zone": {
+      "FOOT": {
+        "n": 132,
+        "wins": 70,
+        "rate": 0.5303030303030303,
+        "match_bootstrap_95ci": [
+          0.4409352458565057,
+          0.6239316239316239
+        ],
+        "matches": 31
+      },
+      "HEAD": {
+        "n": 68,
+        "wins": 47,
+        "rate": 0.6911764705882353,
+        "match_bootstrap_95ci": [
+          0.5421686746987951,
+          0.8305149934810953
+        ],
+        "matches": 28
+      },
+      "MIDDLE": {
+        "n": 241,
+        "wins": 172,
+        "rate": 0.7136929460580913,
+        "match_bootstrap_95ci": [
+          0.6383928571428571,
+          0.78099173553719
+        ],
+        "matches": 32
+      },
+      "UNKNOWN": {
+        "n": 1,
+        "wins": 0,
+        "rate": 0.0,
+        "match_bootstrap_95ci": [
+          null,
+          null
+        ],
+        "matches": 1
+      }
+    },
+    "direct_path": {
+      "BLOCKED": {
+        "n": 67,
+        "wins": 39,
+        "rate": 0.582089552238806,
+        "match_bootstrap_95ci": [
+          0.4666666666666667,
+          0.7014925373134329
+        ],
+        "matches": 27
+      },
+      "CLEAR": {
+        "n": 374,
+        "wins": 250,
+        "rate": 0.6684491978609626,
+        "match_bootstrap_95ci": [
+          0.6026188398715622,
+          0.7305749302510961
+        ],
+        "matches": 32
+      },
+      "UNKNOWN": {
+        "n": 1,
+        "wins": 0,
+        "rate": 0.0,
+        "match_bootstrap_95ci": [
+          null,
+          null
+        ],
+        "matches": 1
+      }
+    }
+  },
+  "development_evaluation": {
+    "n": 471,
+    "matches": 32,
+    "model": {
+      "accuracy": 0.6687898089171974,
+      "auc": 0.6693012600229095,
+      "brier": 0.20933360568993337,
+      "log_loss": 0.6071894181185138
+    },
+    "baseline": {
+      "accuracy": 0.6178343949044586,
+      "auc": 0.47782550591828943,
+      "brier": 0.23633085885143038,
+      "log_loss": 0.6655719647541525
+    },
+    "brier_improvement_95ci": [
+      0.015597894387598966,
+      0.03862292264353713
+    ]
+  },
+  "foul_only_evaluation": {
+    "accuracy": 0.6709129511677282,
+    "auc": 0.5516418480336006,
+    "brier": 0.21692741973975144,
+    "log_loss": 0.6230824695101177
+  },
+  "new_match_evaluation": {
+    "pooled": {
+      "n": 21,
+      "wins": 9,
+      "model": {
+        "correct": 13,
+        "accuracy": 0.6190476190476191,
+        "brier": 0.24149479837176072,
+        "log_loss": 0.7083425142441684,
+        "auc": 0.6990740740740741
+      },
+      "constant": {
+        "correct": 9,
+        "accuracy": 0.42857142857142855,
+        "brier": 0.28071842960885107,
+        "log_loss": 0.7560299218628005,
+        "auc": 0.5
+      },
+      "foul_only": {
+        "correct": 11,
+        "accuracy": 0.5238095238095238,
+        "brier": 0.26718636318076616,
+        "log_loss": 0.7351082742602711,
+        "auc": 0.5694444444444444
+      }
+    },
+    "by_match": {
+      "T001": {
+        "n": 7,
+        "wins": 2,
+        "model": {
+          "correct": 6,
+          "accuracy": 0.8571428571428571,
+          "brier": 0.1946122939956251,
+          "log_loss": 0.6702255098072236,
+          "auc": 0.55
+        },
+        "constant": {
+          "correct": 2,
+          "accuracy": 0.2857142857142857,
+          "brier": 0.3143853995815536,
+          "log_loss": 0.8246536956172694,
+          "auc": 0.5
+        },
+        "foul_only": {
+          "correct": 4,
+          "accuracy": 0.5714285714285714,
+          "brier": 0.2560584953071613,
+          "log_loss": 0.7236189694073633,
+          "auc": 0.5499999999999999
+        }
+      },
+      "T002": {
+        "n": 6,
+        "wins": 4,
+        "model": {
+          "correct": 3,
+          "accuracy": 0.5,
+          "brier": 0.21669035557502214,
+          "log_loss": 0.6141727047115141,
+          "auc": 0.75
+        },
+        "constant": {
+          "correct": 4,
+          "accuracy": 0.6666666666666666,
+          "brier": 0.22460681298768037,
+          "log_loss": 0.6416569656053527,
+          "auc": 0.5
+        },
+        "foul_only": {
+          "correct": 4,
+          "accuracy": 0.6666666666666666,
+          "brier": 0.22247295837692962,
+          "log_loss": 0.6370698543475444,
+          "auc": 0.5
+        }
+      },
+      "T003": {
+        "n": 8,
+        "wins": 3,
+        "model": {
+          "correct": 4,
+          "accuracy": 0.5,
+          "brier": 0.3011203217984333,
+          "log_loss": 0.8123222502759858,
+          "auc": 0.6666666666666666
+        },
+        "constant": {
+          "correct": 3,
+          "accuracy": 0.375,
+          "brier": 0.29334354334861457,
+          "log_loss": 0.7817638370207265,
+          "auc": 0.5
+        },
+        "foul_only": {
+          "correct": 3,
+          "accuracy": 0.375,
+          "brier": 0.31045830117304773,
+          "log_loss": 0.8186902309411106,
+          "auc": 0.5
+        }
+      }
+    }
+  },
+  "public_sample_n": 20,
+  "disclosure": "Only sample_data.csv contains observed rack-level records. Full development and new-match records are private."
+}
